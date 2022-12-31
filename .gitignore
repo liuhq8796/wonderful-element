@@ -1,0 +1,3 @@
+# 在 Dev Container 里 pnpm 总是将 .pnpm-store 安装到当前工作目录，暂时将其忽略
+# 相关 issue：https://github.com/pnpm/pnpm/issues/5803
+.pnpm-store
