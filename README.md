@@ -14,6 +14,6 @@
 
 ## 发包说明
 
-1. 运行 `npx changeset` 添加变更集。
-2. 运行 `npx changeset version` 变更 semver 版本。
-3. 运行 `npx changeset publish` 发布。
+1. 运行 `pnpm run changeset:add` 命令添加变更集。
+2. 运行 `pnpm run changeset:version` 命令变更 semver 版本。
+3. 运行 `pnpm run changeset:publish` 命令发布。
