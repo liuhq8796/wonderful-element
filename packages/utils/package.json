@@ -1,0 +1,10 @@
+{
+  "name": "@wonderful-element/utils",
+  "version": "0.1.0",
+  "description": "Utils of wonderful-element",
+  "keywords": [
+    "utils",
+    "wonderful-element"
+  ],
+  "main": "index.js"
+}

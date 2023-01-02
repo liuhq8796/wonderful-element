@@ -1,0 +1,16 @@
+{
+  "name": "wonderful-element",
+  "version": "0.1.0",
+  "description": "My component library for Vue 3",
+  "keywords": [
+    "wonderful-element",
+    "vue",
+    "component library",
+    "ui framework",
+    "ui"
+  ],
+  "main": "index.js",
+  "dependencies": {
+    "@wonderful-element/components": "workspace:^0.1.0"
+  }
+}

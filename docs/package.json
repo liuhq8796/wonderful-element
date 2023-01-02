@@ -1,0 +1,15 @@
+{
+  "private": true,
+  "scripts": {
+    "docs:dev": "vitepress dev .",
+    "docs:build": "vitepress build .",
+    "docs:preview": "vitepress preview ."
+  },
+  "devDependencies": {
+    "vitepress": "1.0.0-alpha.34",
+    "vue": "^3.2.45"
+  },
+  "dependencies": {
+    "wonderful-element": "workspace:^0.1.0"
+  }
+}

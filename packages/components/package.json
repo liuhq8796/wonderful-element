@@ -1,0 +1,9 @@
+{
+  "name": "@wonderful-element/components",
+  "version": "0.1.0",
+  "description": "all components are settled here",
+  "main": "index.js",
+  "dependencies": {
+    "@wonderful-element/utils": "workspace:^0.1.0"
+  }
+}

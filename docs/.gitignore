@@ -1,0 +1,2 @@
+# vitepress 的 cache 文件目录，应该是需要忽略的吧，文档里没写
+cache
