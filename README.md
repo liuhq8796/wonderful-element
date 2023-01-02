@@ -11,3 +11,9 @@
 ### pnpm-workspace.yaml
 
 `pnpm-workspace.yaml` 定义了[工作空间](https://pnpm.io/zh/workspaces)的根目录，并能够从工作空间中包含/排除目录 。
+
+## 发包说明
+
+1. 运行 `npx changeset` 添加变更集。
+2. 运行 `npx changeset version` 变更 semver 版本。
+3. 运行 `npx changeset publish` 发布。
