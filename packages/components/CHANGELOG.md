@@ -1,4 +1,4 @@
-# @wonderful-element/components
+# @liuhq8796/wonderful-element-components
 
 ## 0.1.0
 

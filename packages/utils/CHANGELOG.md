@@ -1,4 +1,4 @@
-# @wonderful-element/utils
+# @liuhq8796/wonderful-element-utils
 
 ## 0.1.0
 

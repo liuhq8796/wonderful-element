@@ -21,18 +21,18 @@ importers:
 
   packages/components:
     specifiers:
-      '@wonderful-element/utils': workspace:^0.1.0
+      '@liuhq8796/wonderful-element-utils': workspace:^0.1.0
     dependencies:
-      '@wonderful-element/utils': link:../utils
+      '@liuhq8796/wonderful-element-utils': link:../utils
 
   packages/utils:
     specifiers: {}
 
   packages/wonderful-element:
     specifiers:
-      '@wonderful-element/components': workspace:^0.1.0
+      '@liuhq8796/wonderful-element-components': workspace:^0.1.0
     dependencies:
-      '@wonderful-element/components': link:../components
+      '@liuhq8796/wonderful-element-components': link:../components
 
 packages:
 

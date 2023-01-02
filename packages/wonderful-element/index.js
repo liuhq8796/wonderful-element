@@ -1,1 +1,1 @@
-export * from '@wonderful-element/components'
+export * from '@liuhq8796/wonderful-element-components'

@@ -11,6 +11,6 @@
   ],
   "main": "index.js",
   "dependencies": {
-    "@wonderful-element/components": "workspace:^0.1.0"
+    "@liuhq8796/wonderful-element-components": "workspace:^0.1.0"
   }
 }
