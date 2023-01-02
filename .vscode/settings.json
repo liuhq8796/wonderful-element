@@ -1,0 +1,5 @@
+{
+    // Path Intellisense 可以代替默认的路径自动填充
+    "typescript.suggest.paths": false,
+    "javascript.suggest.paths": false
+}
