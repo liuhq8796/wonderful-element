@@ -1,5 +1,11 @@
 {
     // Path Intellisense 可以代替默认的路径自动填充
     "typescript.suggest.paths": false,
-    "javascript.suggest.paths": false
+    "javascript.suggest.paths": false,
+
+    // 要在保存时运行的代码操作种类
+    "editor.codeActionsOnSave": {
+        // 控制是否应在文件保存时运行 eslint 自动修复操作
+        "source.fixAll.eslint": true
+    }
 }
