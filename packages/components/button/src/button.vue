@@ -1,12 +1,12 @@
 <template>
-    <button class="we-button">
-        <slot />
-    </button>
+  <button class="we-button">
+    <slot />
+  </button>
 </template>
 
 <script>
 export default {
-    name: 'WeButton'
+  name: 'WeButton'
 }
 </script>
 
