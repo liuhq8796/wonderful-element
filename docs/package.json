@@ -12,6 +12,7 @@
     "vue": "^3.2.45"
   },
   "dependencies": {
+    "@algolia/client-search": "^4.14.3",
     "wonderful-element": "workspace:^0.1.0"
   }
 }
