@@ -34,6 +34,7 @@
 ### package.json
 
 - private: 设置为true，防止将主目录作为npm包发布。主目录仅作为管理 monorepo 使用。
+- workspace: 指定工作区，用来给 npm-check-updates 包读取，与 pnpm-workspace.yaml 文件同步。
 - scripts: 脚本命令，放置项目内部脚本，目前包括：
   - "docs:dev": 文档项目开发命令。
   - "docs:build": 文档项目构建命令。
