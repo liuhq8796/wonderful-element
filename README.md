@@ -25,9 +25,10 @@
 |-- .devcontainer               VS Code Dev Container 插件配置文件目录
 |-- .vscode                     VS Code 工作区配置文件目录
 |-- docs                        文档项目目录
+|-- internal                    全局内部工具项目目录
 |-- packages                    子项目目录
     |-- components              组件子项目目录
-    |-- utils                   工具子项目目录
+    |-- utils                   组件工具子项目目录
     |-- wonderful-element       入口子项目目录
 ```
 
