@@ -5,7 +5,7 @@ importers:
   .:
     specifiers:
       '@changesets/cli': ^2.26.0
-      '@liuhq8796/eslint-config-wonderful-element': workspace:^0.0.0
+      '@liuhq8796/eslint-config-wonderful-element': workspace:^0.1.0
     dependencies:
       '@changesets/cli': 2.26.0
       '@liuhq8796/eslint-config-wonderful-element': link:internal/eslint-config
