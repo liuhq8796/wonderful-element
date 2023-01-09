@@ -1,0 +1,19 @@
+{
+  "name": "@liuhq8796/eslint-config-wonderful-element",
+  "version": "0.0.0",
+  "description": "ESLint Config",
+  "main": "index.js",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.0.0",
+    "eslint": "^8.0.1",
+    "eslint-config-standard-with-typescript": "^26.0.0",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-n": "^15.0.0",
+    "eslint-plugin-promise": "^6.0.0",
+    "eslint-plugin-vue": "^9.8.0",
+    "typescript": "*"
+  },
+  "dependencies": {
+    "@typescript-eslint/parser": "^5.48.0"
+  }
+}

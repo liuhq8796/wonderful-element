@@ -3,3 +3,5 @@ packages:
   - 'packages/*'
   # 文档项目目录，不需要发包但需要更新版本，所以添加到 workspace 中
   - 'docs'
+  # 内部工具项目
+  - 'internal/*'
