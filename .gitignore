@@ -4,3 +4,6 @@
 
 # 依赖项
 node_modules
+
+# Bundle
+dist
