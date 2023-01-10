@@ -3,9 +3,9 @@
   "version": "0.1.0",
   "description": "ESLint Config",
   "main": "index.js",
-  "devDependencies": {
+  "dependencies": {
     "@typescript-eslint/eslint-plugin": "^5.0.0",
-    "eslint": "^8.0.1",
+    "@typescript-eslint/parser": "^5.48.0",
     "eslint-config-standard-with-typescript": "^26.0.0",
     "eslint-plugin-import": "^2.25.2",
     "eslint-plugin-n": "^15.0.0",
@@ -13,7 +13,10 @@
     "eslint-plugin-vue": "^9.8.0",
     "typescript": "*"
   },
-  "dependencies": {
-    "@typescript-eslint/parser": "^5.48.0"
+  "devDependencies": {
+    "eslint": "^8.31.0"
+  },
+  "peerDependencies": {
+    "eslint": "^8.31.0"
   }
 }
