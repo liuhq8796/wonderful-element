@@ -45,6 +45,7 @@
   - "changeset:publish": changeset 发布版本命令。
   - "lint": 使用 eslint 检查文件格式和错误，目前还不包括 json 和 md 文件。
   - "lint:fix": 使用上述 lint 命令检查格式和错误，并自动修复。
+  - "prepare": 执行 install 之后通过 husky 自动开启 Git hooks。
 - dependencies: 依赖项，目前依赖项包含：
   - "@changesets/cli": monorepo 版本管理发布工具。
 
