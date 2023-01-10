@@ -9,9 +9,9 @@
 - [x] monorepo 项目跑通
 - [x] eslint 格式与错误检查
 - [x] 保存时自动执行 eslint 格式化
-- [ ] 提交时自动检查格式与错误
-- [ ] 仅检查提交的内容
-- [ ] 提交信息检查
+- [x] 提交时自动检查格式与错误
+- [x] 仅检查提交的内容
+- [x] 提交信息检查
 - [ ] 添加 license
 - [x] 修复文档项目构建错误
 - [ ] 完成文档项目样式隔离
@@ -54,6 +54,36 @@
 
  - "packages/*": packages 目录下的所有子目录。
  - "docs": 文档项目目录，不需要发版，但为了统一依赖版本所以添加到工作空间中。
+
+### Husky
+
+通过 husky 的 pre-commit、commit-msg 钩子，配合 lint-staged、eslint、commitlint 工具实现提交时自动对提交内容的格式和错误进行检查和修复，并对 commit message 进行基于约定式提交的检查。
+
+### 提交格式
+
+遵循约定式提交规范：https://www.conventionalcommits.org/zh-hans/v1.0.0/
+
+```
+type(scope?): subject
+body?
+footer?
+```
+
+- type: 标识某次提交的类型，比如是一个修复一个 bug 或者是增加一个 feature，具体类型如下：
+  | 类型 | 描述 |
+  | --- | --- |
+  | build | 影响构建系统或外部依赖项的更改（示例 scope：gulp, broccoli, npm）|
+  | chore | 杂事，如项目配置、构建流程、管理依赖等 |
+  | ci | 对 CI 配置文件和脚本的更改（示例 scope：Travis、Circle、BrowserStack、SauceLabs）|
+  | docs | 仅更改了文档 |
+  | feat | 一个新功能 |
+  | fix | 修复了一个 bug |
+  | perf | 提高性能的代码更改 |
+  | refactor | 既不是修复错误也不添加功能的代码更改 |
+  | revert | 回退之前的提交 |
+  | style | 不影响代码含义的更改（空格、格式、缺少分号等）|
+  | test | 添加缺失的测试或更正现有测试 |
+- scope: scope 应该是受影响的 npm 包的名称（由读取从提交消息生成的更改日志的人员所感知）。
 
 ### 发包操作
 
