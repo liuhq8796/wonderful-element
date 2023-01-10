@@ -6,5 +6,11 @@
     "utils",
     "wonderful-element"
   ],
-  "main": "index.js"
+  "main": "index.js",
+  "devDependencies": {
+    "vue": "^3.2.45"
+  },
+  "peerDependencies": {
+    "vue": "^3.2.45"
+  }
 }

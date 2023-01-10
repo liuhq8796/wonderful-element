@@ -49,17 +49,26 @@ importers:
   packages/components:
     specifiers:
       '@liuhq8796/wonderful-element-utils': workspace:^0.1.0
+      vue: ^3.2.45
     dependencies:
       '@liuhq8796/wonderful-element-utils': link:../utils
+    devDependencies:
+      vue: 3.2.45
 
   packages/utils:
-    specifiers: {}
+    specifiers:
+      vue: ^3.2.45
+    devDependencies:
+      vue: 3.2.45
 
   packages/wonderful-element:
     specifiers:
       '@liuhq8796/wonderful-element-components': workspace:^0.1.0
+      vue: ^3.2.45
     dependencies:
       '@liuhq8796/wonderful-element-components': link:../components
+    devDependencies:
+      vue: 3.2.45
 
 packages:
 
