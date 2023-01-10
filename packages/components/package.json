@@ -5,11 +5,5 @@
   "main": "index.js",
   "dependencies": {
     "@liuhq8796/wonderful-element-utils": "workspace:^0.1.0"
-  },
-  "peerDependencies": {
-    "vue": "^3.2.45"
-  },
-  "devDependencies": {
-    "vue": "^3.2.45"
   }
 }

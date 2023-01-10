@@ -12,11 +12,5 @@
   "main": "index.js",
   "dependencies": {
     "@liuhq8796/wonderful-element-components": "workspace:^0.1.0"
-  },
-  "devDependencies": {
-    "vue": "^3.2.45"
-  },
-  "peerDependencies": {
-    "vue": "^3.2.45"
   }
 }
