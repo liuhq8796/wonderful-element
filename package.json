@@ -15,7 +15,7 @@
     "lint": "eslint . --ext .vue,.js,.ts,.jsx,.tsx",
     "lint:fix": "pnpm run lint --fix"
   },
-  "dependencies": {
+  "devDependencies": {
     "@changesets/cli": "^2.26.0",
     "@liuhq8796/eslint-config-wonderful-element": "workspace:^0.1.0"
   }
