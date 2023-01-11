@@ -6,7 +6,7 @@
 
 <script>
 export default {
-  name: 'WeButton'
+  name: 'WeButton',
 }
 </script>
 
