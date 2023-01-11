@@ -33,6 +33,7 @@
     |-- utils                   组件工具子项目目录
     |-- wonderful-element       入口子项目目录
 |-- .eslintrc.js                ESLint 工具使用的配置文件
+|-- .gitattributes              git 配置文件
 |-- .gitignore                  需要忽略 git 版本管理的文件配置
 |-- commitlint.config.js        commitlint 工具使用的配置文件
 |-- LICENSE                     开源许可证，内容为 MIT 许可
@@ -78,18 +79,34 @@
 
 遵循约定式提交规范：https://www.conventionalcommits.org/zh-hans/v1.0.0/
 
+以下为约定式提交规范的部分参考：
+
+提交说明的结构如下所示：
+
 ```
-type(scope?): subject
-body?
-footer?
+<type>[optional scope]: <description>
+
+[optional body]
+
+[optional footer(s)]
+```
+
+译文：
+
+```
+<类型>[可选 范围]: <描述>
+
+[可选 正文]
+
+[可选 脚注]
 ```
 
 - type: 标识某次提交的类型，比如是一个修复一个 bug 或者是增加一个 feature，具体类型如下：
   | 类型 | 描述 |
   | --- | --- |
-  | build | 影响构建系统或外部依赖项的更改（示例 scope：gulp, broccoli, npm）|
+  | build | 影响构建系统或外部依赖项的更改（示例范围：gulp, broccoli, npm）|
   | chore | 杂事，如项目配置、构建流程、管理依赖等 |
-  | ci | 对 CI 配置文件和脚本的更改（示例 scope：Travis、Circle、BrowserStack、SauceLabs）|
+  | ci | 对 CI 配置文件和脚本的更改（示例范围：Travis、Circle、BrowserStack、SauceLabs）|
   | docs | 仅更改了文档 |
   | feat | 一个新功能 |
   | fix | 修复了一个 bug |
@@ -99,6 +116,9 @@ footer?
   | style | 不影响代码含义的更改（空格、格式、缺少分号等）|
   | test | 添加缺失的测试或更正现有测试 |
 - scope: scope 应该是受影响的 npm 包的名称（由读取从提交消息生成的更改日志的人员所感知）。
+- description: 本次提交内容的概述。
+- body: body 部分是对本次 commit 的详细描述，可以分成多行，提交者自由发挥。
+- footer: 脚注部分一般用于记录不兼容的改动或关闭的 issue 等等。
 
 ### 发包操作
 
