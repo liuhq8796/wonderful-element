@@ -12,7 +12,7 @@
 - [x] 提交时自动检查格式与错误
 - [x] 仅检查提交的内容
 - [x] 提交信息检查
-- [ ] 添加 license
+- [x] 添加 license
 - [x] 修复文档项目构建错误
 - [ ] 完成文档项目样式隔离
 - [ ] (长期)完成组件库建设
@@ -23,13 +23,24 @@
 ```
 |-- .changeset                  monorepo 版本管理发布工具配置文件目录
 |-- .devcontainer               VS Code Dev Container 插件配置文件目录
+|-- .husky                      husky 使用的 Git hooks 脚本
 |-- .vscode                     VS Code 工作区配置文件目录
 |-- docs                        文档项目目录
 |-- internal                    全局内部工具项目目录
+    |- eslint-config            Wonderful Element ESLint Config
 |-- packages                    子项目目录
     |-- components              组件子项目目录
     |-- utils                   组件工具子项目目录
     |-- wonderful-element       入口子项目目录
+|-- .eslintrc.js                ESLint 工具使用的配置文件
+|-- .gitignore                  需要忽略 git 版本管理的文件配置
+|-- commitlint.config.js        commitlint 工具使用的配置文件
+|-- LICENSE                     开源许可证，内容为 MIT 许可
+|-- lint-staged.config.js       lint-staged 工具使用的配置文件
+|-- package.json                主项目包文件
+|-- pnpm-lock.yaml              pnpm 生成的锁文件
+|-- pnpm-workspace.yaml         pnpm monorepo 工作区配置文件
+|-- README.md                   主项目说明文件
 ```
 
 ### package.json
@@ -48,7 +59,10 @@
   - "prepare": 执行 install 之后通过 husky 自动开启 Git hooks。
 - dependencies: 依赖项，目前依赖项包含：
   - "@changesets/cli": monorepo 版本管理发布工具。
-
+  - "@commitlint/cli"、"@commitlint/config-conventional": commit message 检查工具。
+  - "@liuhq8796/eslint-config-wonderful-element": Wonderful Element ESLint Config。
+  - "husky": Git hooks 工具。
+  - "lint-staged": 用来设置仅对提交内容检查的工具。
 ### pnpm-workspace.yaml
 
 `pnpm-workspace.yaml` 定义了[工作空间](https://pnpm.io/zh/workspaces)的根目录，并能够从工作空间中包含/排除目录 。目前工作空间包括：
