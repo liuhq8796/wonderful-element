@@ -1,21 +1,23 @@
 module.exports = {
   env: {
     browser: true,
-    es2021: true
+    es2021: true,
   },
   extends: [
     'plugin:vue/vue3-recommended',
-    'standard-with-typescript'
+    'standard-with-typescript',
   ],
   overrides: [
   ],
   parserOptions: {
     ecmaVersion: 'latest',
-    sourceType: 'module'
+    sourceType: 'module',
   },
   plugins: [
-    'vue'
+    'vue',
   ],
   rules: {
-  }
+    // Common
+    'comma-dangle': ['error', 'always-multiline'],
+  },
 }
