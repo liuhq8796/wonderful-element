@@ -6,5 +6,6 @@
     "utils",
     "wonderful-element"
   ],
+  "license": "MIT",
   "main": "index.js"
 }

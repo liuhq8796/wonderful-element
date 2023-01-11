@@ -5,6 +5,7 @@
     "docs",
     "internal/*"
   ],
+  "license": "MIT",
   "scripts": {
     "docs:dev": "pnpm --dir docs run dev",
     "docs:build": "pnpm --dir docs run build",

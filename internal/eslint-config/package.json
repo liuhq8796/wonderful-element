@@ -2,6 +2,7 @@
   "name": "@liuhq8796/eslint-config-wonderful-element",
   "version": "0.1.0",
   "description": "ESLint Config",
+  "license": "MIT",
   "main": "index.js",
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^5.0.0",

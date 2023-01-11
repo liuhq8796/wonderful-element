@@ -2,6 +2,7 @@
   "name": "@liuhq8796/wonderful-element-components",
   "version": "0.1.0",
   "description": "all components are settled here",
+  "license": "MIT",
   "main": "index.js",
   "dependencies": {
     "@liuhq8796/wonderful-element-utils": "workspace:^0.1.0"

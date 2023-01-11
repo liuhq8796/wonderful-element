@@ -2,6 +2,7 @@
   "name": "@liuhq8796/wonderful-element-docs",
   "version": "0.1.0",
   "private": true,
+  "license": "MIT",
   "scripts": {
     "dev": "vitepress dev .",
     "build": "vitepress build .",
