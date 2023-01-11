@@ -4,10 +4,22 @@
   </button>
 </template>
 
-<script>
+<script lang="ts">
 export default {
   name: 'WeButton',
 }
+</script>
+
+<script setup lang="ts">
+export type ButtonTypes = 'default' | 'primary' | 'success' | 'warning' | 'info' | 'danger' | ''
+
+export interface ButtonProps {
+  type?: ButtonTypes
+}
+
+withDefaults(defineProps<ButtonProps>(), {
+  type: '',
+})
 </script>
 
 <style>
