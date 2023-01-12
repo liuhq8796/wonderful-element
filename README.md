@@ -6,18 +6,25 @@
 
 ### 待办事项
 
-- [x] monorepo 项目跑通
-- [x] eslint 格式与错误检查
-- [x] 保存时自动执行 eslint 格式化
-- [x] 提交时自动检查格式与错误
-- [x] 仅检查提交的内容
-- [x] 提交信息检查
-- [x] 添加 license
-- [x] 修复文档项目构建错误
-- [ ] 完成文档项目样式隔离
-- [ ] 升级为 TypeScript 项目
-- [ ] (长期)完成组件库建设
-- [ ] (长期)完成单元测试建设
+- wonderfule-element 主项目
+  - [x] monorepo 项目跑通
+  - [x] eslint 格式与错误检查
+  - [x] 保存时自动执行 eslint 格式化
+  - [x] 提交时自动检查格式与错误
+  - [x] 仅检查提交的内容
+  - [x] 提交信息检查
+  - [x] 添加 license
+  - [ ] (长期)完成单元测试建设
+- packages/wonderful-element 入口项目
+  - [ ] 升级为 TypeScript 项目
+- packages/components 组件项目
+  - [ ] 升级为 TypeScript 项目
+  - [ ] (长期)完成组件库建设
+- packages/utils 工具项目
+  - [ ] 升级为 TypeScript 项目
+- docs 文档项目
+  - [x] 修复文档项目构建错误
+  - [ ] 完成文档项目样式隔离
 
 ### 目录结构
 
@@ -49,6 +56,7 @@
 
 - private: 设置为true，防止将主目录作为npm包发布。主目录仅作为管理 monorepo 使用。
 - workspace: 指定工作区，用来给 npm-check-updates 包读取，与 pnpm-workspace.yaml 文件同步。
+- license: 开源许可证，使用 MIT 许可。
 - scripts: 脚本命令，放置项目内部脚本，目前包括：
   - "docs:dev": 文档项目开发命令。
   - "docs:build": 文档项目构建命令。
