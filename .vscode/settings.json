@@ -1,5 +1,8 @@
 {
-    // Path Intellisense 可以代替默认的路径自动填充
+    // Path Intellisense 可以代替 vscode 默认的路径自动填充
+    // 如果要开启 TypeScript Vue Plugin (Volar) 的 Takeover 模式
+    // 就需要关闭内置的 TypeScript and JavaScript Language Features
+    // 此时这两个配置失效
     "typescript.suggest.paths": false,
     "javascript.suggest.paths": false,
     // 要在保存时运行的代码操作种类
