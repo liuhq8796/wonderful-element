@@ -5,9 +5,11 @@
   "license": "MIT",
   "main": "index.js",
   "dependencies": {
+    "@liuhq8796/wonderful-element-hooks": "workspace:^0.0.0",
     "@liuhq8796/wonderful-element-utils": "workspace:^0.1.0"
   },
   "devDependencies": {
+    "sass": "^1.57.1",
     "vue": "^3.2.45"
   },
   "peerDependencies": {
