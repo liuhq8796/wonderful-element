@@ -6,6 +6,7 @@
 
 <script setup>
 import { WeButton } from 'wonderful-element'
+import 'wonderful-element/dist/style.css'
 </script>
 
 使用 type、plain、round 和 circle 来定义按钮的样式。
