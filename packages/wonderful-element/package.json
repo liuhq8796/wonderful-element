@@ -10,8 +10,25 @@
     "ui"
   ],
   "license": "MIT",
-  "main": "index.js",
+  "type": "module",
+  "files": ["dist"],
+  "module": "./dist/index.js",
+  "main": "./dist/index.umd.cjs",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.umd.cjs"
+    },
+    "./*": "./*"
+  },
+  "scripts": {
+    "build": "vite build"
+  },
   "dependencies": {
     "@liuhq8796/wonderful-element-components": "workspace:*"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.0.0",
+    "vite": "^4.0.4"
   }
 }
