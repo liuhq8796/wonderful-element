@@ -15,7 +15,8 @@
     "changeset:publish": "npx changeset publish",
     "lint": "eslint . --ext .vue,.js,.ts,.jsx,.tsx",
     "lint:fix": "pnpm run lint --fix",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "build": "pnpm --dir packages/wonderful-element run build"
   },
   "devDependencies": {
     "@changesets/cli": "^2.26.0",

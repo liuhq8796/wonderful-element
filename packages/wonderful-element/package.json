@@ -11,7 +11,9 @@
   ],
   "license": "MIT",
   "type": "module",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "module": "./dist/index.js",
   "main": "./dist/index.umd.cjs",
   "exports": {
@@ -29,6 +31,11 @@
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.0.0",
-    "vite": "^4.0.4"
+    "unplugin-vue-define-options": "^1.1.4",
+    "vite": "^4.0.4",
+    "vue": "^3.2.45"
+  },
+  "peerDependencies": {
+    "vue": "^3.2.45"
   }
 }

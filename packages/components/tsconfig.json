@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+        // unplugin-vue-define-options ts 支持
+      "types": ["unplugin-vue-define-options/macros-global"]
+    },
+    "vueCompilerOptions": {
+      "plugins": [
+        "@vue-macros/volar/define-model"
+      ]
+    }
+}
+  

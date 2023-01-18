@@ -21,5 +21,6 @@ module.exports = {
   rules: {
     // Common
     'comma-dangle': ['error', 'always-multiline'],
+    'no-undef': 'off',
   },
 }

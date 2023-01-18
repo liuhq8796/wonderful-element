@@ -9,20 +9,18 @@
   </button>
 </template>
 
-<script lang="ts">
+<script setup lang="ts">
 import { useNamespace } from '@liuhq8796/wonderful-element-hooks'
 
-export default {
-  name: 'WeButton',
-}
-</script>
-
-<script setup lang="ts">
 export type ButtonTypes = 'default' | 'primary' | 'success' | 'warning' | 'info' | 'danger' | ''
 
 export interface ButtonProps {
   type?: ButtonTypes
 }
+
+defineOptions({
+  name: 'WeButton',
+})
 
 withDefaults(defineProps<ButtonProps>(), {
   type: '',
