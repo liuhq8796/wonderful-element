@@ -12,6 +12,7 @@ specifiers:
   '@vue/eslint-config-typescript': ^11.0.3
   '@vue/test-utils': ^2.3.2
   '@vue/tsconfig': ^0.4.0
+  async-validator: ^4.2.5
   eslint: ^8.39.0
   eslint-plugin-vue: ^9.11.0
   jsdom: ^22.0.0
@@ -28,6 +29,7 @@ specifiers:
   vue-tsc: ^1.6.4
 
 dependencies:
+  async-validator: 4.2.5
   pinia: 2.1.3_typescript@5.0.4+vue@3.3.4
   vue: 3.3.4
   vue-router: 4.2.1_vue@3.3.4
@@ -1232,6 +1234,10 @@ packages:
   /assertion-error/1.1.0:
     resolution: {integrity: sha512-jgsaNduz+ndvGyFt3uSuWqvy4lCnIJiovtouQN5JZHOKCS2QuhEdbcQHFhVksz2N2U9hXJo8odG7ETyWlEeuDw==}
     dev: true
+
+  /async-validator/4.2.5:
+    resolution: {integrity: sha512-7HhHjtERjqlNbZtqNqy2rckN/SpOOlmDliet+lP7k+eKZEjPk3DgyeU9lIXLdeLz0uBbbVp+9Qdow9wJWgwwfg==}
+    dev: false
 
   /asynckit/0.4.0:
     resolution: {integrity: sha512-Oei9OH4tRh0YqU3GxhX79dM/mwVgvbZJaSNaRk+bshkj0S5cfHcgYakreBjrHwatXKbz+IoIdYLxrKim2MjW0Q==}
