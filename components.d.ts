@@ -9,9 +9,12 @@ export {}
 
 declare module '@vue/runtime-core' {
   export interface GlobalComponents {
+    ElDialog: typeof import('./src/components/dialog/ElDialog.vue')['default']
     ElForm: typeof import('./src/components/form/ElForm.vue')['default']
     ElFormItem: typeof import('./src/components/form/ElFormItem.vue')['default']
     ElInput: typeof import('./src/components/form/ElInput.vue')['default']
+    ElNotification: typeof import('./src/components/notification/ElNotification.vue')['default']
+    Notification: typeof import('./src/components/notification/ElNotification.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
   }
