@@ -2,5 +2,13 @@
     "name": "wonderful-element",
     "private": true,
     "scripts": {},
-    "devDependencies": {}
+    "devDependencies": {
+        "@vitejs/plugin-vue": "^4.3.3",
+        "sass": "^1.66.1",
+        "typescript": "^5.2.2",
+        "vite": "^4.4.9"
+    },
+    "dependencies": {
+        "vue": "^3.3.4"
+    }
 }
