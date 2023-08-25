@@ -1,0 +1,31 @@
+{
+    "name": "@wonderful-element/components",
+    "version": "0.0.0",
+    "description": "",
+    "keywords": [],
+    "author": "Lucas Liu",
+    "license": "",
+    "homepage": "",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/liuhq8796/wonderful-element.git"
+    },
+    "bugs": {
+        "url": "https://github.com/liuhq8796/wonderful-element/issues"
+    },
+    "scripts": {},
+    "main": "",
+    "module": "",
+    "types": "",
+    "exports": {
+        ".": {
+            "require": "",
+            "import": "",
+            "types": ""
+        }
+    },
+    "files": [],
+    "peerDependencies": {},
+    "dependencies": {},
+    "devDependencies": {}
+}
