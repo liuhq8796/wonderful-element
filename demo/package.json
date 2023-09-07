@@ -1,0 +1,11 @@
+{
+    "name": "@wonderful-element/demo",
+    "private": true,
+    "scripts": {
+        "dev": "vite dev"
+    },
+    "dependencies": {
+        "wonderful-element": "workspace:^"
+    },
+    "devDependencies": {}
+}

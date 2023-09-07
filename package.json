@@ -1,7 +1,8 @@
 {
-    "name": "wonderful-element",
     "private": true,
-    "scripts": {},
+    "scripts": {
+        "build": "pnpm --filter \"./packages/**\" run build"
+    },
     "devDependencies": {
         "@vitejs/plugin-vue": "^4.3.3",
         "sass": "^1.66.1",

@@ -1,0 +1,32 @@
+{
+    "name": "@wonderful-element/button",
+    "version": "0.0.0",
+    "description": "",
+    "keywords": [],
+    "author": "Lucas Liu",
+    "license": "",
+    "homepage": "",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/liuhq8796/wonderful-element.git"
+    },
+    "bugs": {
+        "url": "https://github.com/liuhq8796/wonderful-element/issues"
+    },
+    "scripts": {
+        "build": "vite build"
+    },
+    "main": "./dist/wonderful-element-button.umd.js",
+    "module": "./dist/wonderful-element-button.mjs",
+    "types": "",
+    "exports": {
+        ".": {
+            "require": "./dist/wonderful-element-button.umd.js",
+            "import": "./dist/wonderful-element-button.mjs"
+        }
+    },
+    "files": [],
+    "dependencies": {
+        "@wonderful-element/shared": "workspace:^"
+    }
+}

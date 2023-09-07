@@ -1,5 +1,5 @@
 {
-    "name": "@wonderful-element/components",
+    "name": "@wonderful-element/shared",
     "version": "0.0.0",
     "description": "",
     "keywords": [],
@@ -13,19 +13,21 @@
     "bugs": {
         "url": "https://github.com/liuhq8796/wonderful-element/issues"
     },
-    "scripts": {},
-    "main": "",
-    "module": "",
+    "scripts": {
+        "build": "vite build"
+    },
+    "main": "./dist/wonderful-element-shared.umd.js",
+    "module": "./dist/wonderful-element-shared.mjs",
     "types": "",
     "exports": {
         ".": {
-            "require": "",
-            "import": "",
-            "types": ""
+            "require": "./dist/wonderful-element-shared.umd.js",
+            "import": "./dist/wonderful-element-shared.mjs"
         }
     },
     "files": [],
-    "peerDependencies": {},
-    "dependencies": {},
-    "devDependencies": {}
+    "dependencies": {
+        "@types/lodash": "^4.14.198",
+        "lodash": "^4.17.21"
+    }
 }

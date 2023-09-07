@@ -1,0 +1,32 @@
+{
+    "name": "@wonderful-element/input",
+    "version": "0.0.0",
+    "description": "",
+    "keywords": [],
+    "author": "Lucas Liu",
+    "license": "",
+    "homepage": "",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/liuhq8796/wonderful-element.git"
+    },
+    "bugs": {
+        "url": "https://github.com/liuhq8796/wonderful-element/issues"
+    },
+    "scripts": {
+        "build": "vite build"
+    },
+    "main": "./dist/wonderful-element-input.umd.js",
+    "module": "./dist/wonderful-element-input.mjs",
+    "types": "",
+    "exports": {
+        ".": {
+            "require": "./dist/wonderful-element-input.umd.js",
+            "import": "./dist/wonderful-element-input.mjs"
+        }
+    },
+    "files": [],
+    "dependencies": {
+        "@wonderful-element/shared": "workspace:^"
+    }
+}
