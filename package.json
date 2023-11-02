@@ -4,6 +4,7 @@
         "build": "pnpm --filter \"./packages/**\" run build"
     },
     "devDependencies": {
+        "@types/node": "^20.8.10",
         "@vitejs/plugin-vue": "^4.3.3",
         "sass": "^1.66.1",
         "typescript": "^5.2.2",
