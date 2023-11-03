@@ -1,1 +1,3 @@
-declare module '@wonderful-element/shared';
+declare module '@wonderful-element/shared' {
+    export const hello: (val: string) => string;
+}

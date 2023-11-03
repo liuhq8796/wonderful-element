@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { hello } from '@wonderful-element/shared';
 
-const props = withDefaults(
+withDefaults(
     defineProps<{
         modelValue?: string;
     }>(),
